@@ -24,6 +24,14 @@ a {
     
 }
 
+button.btn {
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 .nav {
     background: #fff;
     padding: 0 2rem;
@@ -90,6 +98,36 @@ a {
     
 }
 
+
+main .site-title {
+    background: url(../assets/Background-image.png);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    padding-top: 10rem;
+    text-align: center;
+    color: #fff;
+}
+
+main .site-title .site-background h1,h3{
+    margin: 0.3rem;
+}
+
+.site-title .btn {
+    margin: 1.8rem;
+    background: skyblue;
+    letter-spacing: .2rem;
+}
+
+.site-title .btn:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
 @media only screen and (max-width:750px) {
     .nav .nav-menu, .nav .nav-items {
         flex-direction: column;

@@ -55,6 +55,11 @@ a {
     padding: 1.7rem 0;
 }
 
+.border {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
 .nav-menu .toggle-collapse .toggle-icons i {
     font-size: 26px;
 }
@@ -73,6 +78,10 @@ a {
 }
 .nav .social {
     padding: 1rem 0;
+}
+
+.nav .social a {
+    padding: 0 0.5rem ;
 }
 .nav .nav-brand a {
     font-size: 1.6rem;
